@@ -235,3 +235,28 @@ using namespace std;
 //             break;
 //     }
 // }
+
+
+// Problem 20
+//
+int main() {
+    int day, elapsed_day;
+
+    int sunday = 0;
+    int monday = 1;
+    int tuesday = 2;
+    int wednesday = 3;
+    int thursday = 4;
+    int friday = 5;
+    int saturday = 6;
+
+    cout << "Enter today's day: ";
+    cin >> day;
+
+    cout << "Enter the number of days elapsed since today: ";
+    cin >> elapsed_day;
+
+    if (day == monday) {
+        cout << "Today is Monday";
+    }
+}
