@@ -199,12 +199,39 @@ using namespace std;
 
 
 // Problem 19
-
-int main() {
-    double gpa;
-
-    cout<<"Enter your GPA: ";
-
-    int gpa_int;
-
-}
+//
+// int main() {
+//     double gpa;
+//
+//     cout<<"Enter your GPA: ";
+//     cin>>gpa;
+//
+//     int gpa_int;
+//     if (gpa >= 4.0 and gpa <= 4.5) {
+//         gpa_int = 1;
+//     } else if (gpa >= 3.5 and gpa < 4.0) {
+//         gpa_int = 2;
+//     } else if (gpa >= 3.0 and gpa < 3.5) {
+//         gpa_int = 3;
+//     } else if (gpa < 3.0 and gpa >= 0) {
+//         gpa_int = 4;
+//     } else gpa_int = 5;
+//
+//     switch (gpa_int) {
+//             case 1:
+//             cout << "You got 80% scholarship!";
+//             break;
+//             case 2:
+//             cout << "You got 60% scholarship!";
+//             break;
+//             case 3:
+//             cout << "You got 50% scholarship!";
+//             break;
+//             case 4:
+//             cout << "You got 0% scholarship";
+//             break;
+//             case 5:
+//             cout << "Invalid GPA";
+//             break;
+//     }
+// }
